@@ -1,6 +1,7 @@
 # IoT216
 
-
+#210311
+# 사각형 넓이 , 피타고라스
 ```
 #include <stdio.h>
 #include <iostream>
@@ -97,4 +98,30 @@ int main()
 
     printf("두 점 사이의 길이는 %.2f 입니다.", r1.distance());
     printf("사각형의 전체 둘레길이는 %d 입니다.", r2.tLength();
+}
+
+
+#210311
+```
+#include <stdio.h>
+#include <conio.h>
+
+
+int main()
+{
+	int i, j, k;
+	char* str = ".........";
+	char ch = '|';
+
+	while (1)
+	{
+		k = getch()-0x30; // '0'~'9' : 30h~39h
+		if(k<0 || k>9) break;
+		for (i = 0; i < 10; i++)
+		{
+			if (i == k) printf("%c", ch);
+			else        printf("%c", *(str + i));
+		}
+		printf("\r");
+	}
 }
