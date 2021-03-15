@@ -1,7 +1,7 @@
 # IoT216
 
-#210311
-# 사각형 넓이 , 피타고라스
+##210311
+# 사각형 넓이 구하기, 피타고라스 공식을 이용한 한변의 길이 구하기
 ```
 #include <stdio.h>
 #include <iostream>
@@ -101,9 +101,9 @@ int main()
 }
 
 
-```
-#210311
+##210311
 
+```
 #include <stdio.h>
 #include <conio.h>
 
@@ -126,7 +126,7 @@ int main()
 		printf("\r");
 	}
 }
-
+```
 
 
 ## 210315
