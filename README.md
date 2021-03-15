@@ -99,12 +99,12 @@ int main()
     printf("두 점 사이의 길이는 %.2f 입니다.", r1.distance());
     printf("사각형의 전체 둘레길이는 %d 입니다.", r2.tLength();
 }
-
+```
 
 
 ## 210315
 # MFC 수업 자료
-
+```
 
 // MFCApp1.cpp : 애플리케이션에 대한 진입점을 정의합니다.
 //
@@ -331,4 +331,3 @@ INT_PTR CALLBACK NewTest(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
     }
     return (INT_PTR)FALSE;
 }
-```
