@@ -330,3 +330,8 @@ INT_PTR CALLBACK NewTest(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
     }
     return (INT_PTR)FALSE;
 }
+```
+
+## 210316
+# MFC
+```
