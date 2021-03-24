@@ -1,7 +1,8 @@
-```
+
 # 210324
 ## 데이터베이스 수업 2일차
 
+```
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
