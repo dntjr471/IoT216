@@ -1,5 +1,5 @@
 #210323
-## 데이터베이스 수업 1
+## 데이터베이스 수업 1일차
 ```
 using System;
 using System.Collections.Generic;
